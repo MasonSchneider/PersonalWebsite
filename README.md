@@ -2,7 +2,7 @@
 
 A github hosted static personal website
 
-## Setup
+## Local Setup
 
 1. npm install
 2. npm run local

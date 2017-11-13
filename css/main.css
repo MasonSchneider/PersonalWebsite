@@ -2,4 +2,18 @@
 body {
   background-image: url("../images/mooning.png");
   background-repeat: repeat;
+  padding-top: 70px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
