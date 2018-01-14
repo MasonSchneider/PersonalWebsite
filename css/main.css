@@ -1,8 +1,25 @@
 /* Background pattern from Subtle Patterns */
-body {
+/*body {
   background-image: url("../images/mooning.png");
   background-repeat: repeat;
   padding-top: 70px;
+  font-family: 'Open Sans', sans-serif;
+}*/
+
+/*
+* Color Scheme:
+* #902F39 - Main
+* #ED5E35 - Alt-Main
+* #F7F5F0 - background
+* #CDCECE - background-alt
+* #46A8BC - highlight
+* #454542 - text test
+* #74808a - text test
+*/
+
+body {
+  background-color: #F7F5F0;
+  color: #454542;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -12,8 +29,54 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  border-bottom: 1px solid #46A8BC;
+  display: inline-block;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
 }
+
+#head {
+  background-color: #902F39;
+  height: 100vh;
+  min-height: 500px;
+  padding: 15px;
+}
+
+#banner {
+  color: #CDCECE;
+  position: relative;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translateY(-70%);
+  -ms-transform: translateY(-70%);
+  transform: translateY(-70%);
+}
+
+#banner h1 {
+  color: #F7F5F0;
+}
+
+.info-pane {
+  text-align: center;
+  padding: 50px 15px;
+}
+
+.info-pane-alt {
+  padding: 50px 15px;
+  text-align: center;
+  background-color: #CDCECE;
+  border-bottom: 1px solid #909090;
+  border-top: 1px solid #909090;
+}
+
+@media only screen and (max-width: 992px) {
+
+  #head {
+    height: 40vh;
+    min-height: auto;
+  }
+
+}
+
