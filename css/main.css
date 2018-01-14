@@ -21,27 +21,62 @@ body {
   background-color: #F7F5F0;
   color: #454542;
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 6em;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  border-bottom: 1px solid #46A8BC;
+  border-bottom: 2px solid #46A8BC;
   display: inline-block;
+  font-size: 4em;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: 200;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: 150;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  font-weight: 120;
 }
 
 #head {
-  background-color: #902F39;
+  background-image: url("../images/server-back.jpg");
+  background-size: cover;
   height: 100vh;
   min-height: 500px;
   padding: 15px;
+}
+
+#overlay {
+  background-color: #902F39;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
 #banner {
@@ -52,6 +87,7 @@ h3 {
   -webkit-transform: translateY(-70%);
   -ms-transform: translateY(-70%);
   transform: translateY(-70%);
+  z-index: 2;
 }
 
 #banner h1 {
@@ -60,22 +96,60 @@ h3 {
 
 .info-pane {
   text-align: center;
-  padding: 50px 15px;
+  padding: 40px 15px;
 }
 
 .info-pane-alt {
-  padding: 50px 15px;
+  background-image: url("../images/mooning.png");
+  background-repeat: repeat;
+  padding: 40px 15px;
   text-align: center;
   background-color: #CDCECE;
   border-bottom: 1px solid #909090;
   border-top: 1px solid #909090;
 }
 
+.info-block {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.project-block {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: 1px solid #a9b2ba;
+  background-color: #CDCECE;
+  padding: 20px 25px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
+  margin-bottom: 30px;
+}
+
+.project-links {
+  text-align: left;
+}
+
 @media only screen and (max-width: 992px) {
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
 
   #head {
     height: 40vh;
     min-height: auto;
+  }
+
+  #overlay {
+    max-height: 40vh;
   }
 
 }
