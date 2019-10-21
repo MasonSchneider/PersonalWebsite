@@ -1,8 +1,9 @@
 # Personal Website
 
-A github hosted static personal website
+A github hosted static personal website using Jekyll.
 
 ## Local Setup
 
-1. npm install
-2. npm run local
+```bash
+bundle exec jekyll serve
+```

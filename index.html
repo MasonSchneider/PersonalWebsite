@@ -1,165 +1,22 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100862590-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+---
+layout: home
+paginate: true
+alt_title: "Basically Basic"
+sub_title: "Your new default Jekyll theme"
+image: /assets/images/amine-ounnas-180287.jpg
+introduction: |
+  Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
 
-      gtag('config', 'UA-100862590-2');
-    </script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Mason Schneider</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-  </head>
-  <body>
-    <div id="head">
-      <div id="overlay"></div>
-      <div id="banner">
-        <h1>Mason Schneider</h1>
-        <h3>Software Engineer</h3>
-      </div>
-    </div>
-
-    <div id="about" class="info-pane">
-      <h2>About Me</h2>
-      <p class="info-block">I love how much is possible through code! Software engineers can go from building the next viral game to improving healthcare. I started learning programming in the seventh grade because I thought it would make me an "Elite Hacker" but I ended up making a text based adventure game in Basic and I've been hooked on software ever since. When I'm not programming I can be found hiking, scuba diving, and travelling.</p>
-    </div>
-
-    <div id="projects" class="info-pane-alt">
-      <h2>Projects</h2>
-      <div class="project-block">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>Firefox Certificate Manager</h4>
-              <p>This project was built with my Rose-Hulman senior project group and the Firefox security team. It provides a modern look and better control over installed certificates and certificate autorities.</p>
-            </div>
-            <div class="col-md-6"">
-              <h5><b>More Info</b></h5>
-              <ul class="project-links">
-                <li><a href="https://github.com/sidstamm/FirefoxCertificateManager">Github <i class="fa fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="https://addons.mozilla.org/en-US/firefox/addon/certificate-manager/">Add-on Page <i class="fa fa-puzzle-piece" aria-hidden="true"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="project-block">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>Slack Games</h4>
-              <p>SlackGames is a node server project that allows Slack users to play tic-tac-toe with others. It preserves game states throughout chats and evaluates moves and wins.</p>
-            </div>
-            <div class="col-md-6"">
-              <h5><b>More Info</b></h5>
-              <ul class="project-links">
-                <li><a href="https://github.com/MasonSchneider/SlackGames">Github <i class="fa fa-github" aria-hidden="true"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="project-block">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>BattleAntz</h4>
-              <p>This is a Real Time Strategy (RTS) game built with my team in a game development class. It features single player, multiplayer, upgrades, and music. We were featured in the University article for our effort in the game and feedback we got from our peers during the demo day.</p>
-            </div>
-            <div class="col-md-6"">
-              <h5><b>More Info</b></h5>
-              <ul class="project-links">
-                <li><a href="https://github.com/MasonSchneider/BattleAntz">Github <i class="fa fa-github" aria-hidden="true"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="project-block">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>DiveBook</h4>
-              <p>Worked with two classmates for a database project. This website manages dive meet events and can generate diver scores. The index can also be used during dive practice to plan high-scoring dives.</p>
-            </div>
-            <div class="col-md-6"">
-              <h5><b>More Info</b></h5>
-              <ul class="project-links">
-                <li><a href="https://github.com/MasonSchneider/DiveBook">Github <i class="fa fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="http://divers.herokuapp.com/">Website <i class="fa fa-globe" aria-hidden="true"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="project-block">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>TetrisJS</h4>
-              <p>This is an HTML5 + Javascript Tetris game. I built it as a practice of the new HTML5 canvas and is now used as part of an Amazon 404 page on an internal tool.</p>
-            </div>
-            <div class="col-md-6"">
-              <h5><b>More Info</b></h5>
-              <ul class="project-links">
-                <li><a href="https://github.com/MasonSchneider/TetrisJS">Github <i class="fa fa-github" aria-hidden="true"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="chat" class="info-pane">
-      <h2>Let's Chat</h2>
-      <div id="contact-form">
-        <form action="https://formspree.io/mason@schneiderscode.com"
-        method="POST">
-          <div class="form-group">
-            <label for="emailInput">Email address</label>
-            <input type="email" name="_replyto" class="form-control" id="emailInput" placeholder="name@example.com">
-          </div>
-          <div class="form-group">
-            <label for="messageInpute">Message</label>
-            <textarea class="form-control" id="messageInpute" rows="3" name="message" placeholder="Your message here..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-    </div>
-
-    <div id="footer" class="info-pane-alt">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4">
-            Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2018
-          </div>
-          <div class="col-md-4 col-md-offset-4">
-            Mason Schneider
-          </div>
-        </div>
-      </div>
-      <div id="social-media">
-        <span><a href="https://github.com/MasonSchneider"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a> <a href="https://www.linkedin.com/in/mason-schneider-73255754/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a> </span>
-      </div>
-      
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-    <script src="js/main.js"></script>
-  </body>
-</html>
+  - Clean responsive design with six customizable skins
+  - Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
+  - About page layout
+  - Disqus Comments and Google Analytics support
+  - SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
+actions:
+  - label: "Get Started"
+    icon: github
+    url: "https://github.com/mmistakes/jekyll-theme-basically-basic"
+  - label: "Download"
+    icon: download
+    url: "https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip"
+---

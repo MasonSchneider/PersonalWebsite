@@ -1,0 +1,66 @@
+# Welcome to Jekyll!
+#
+# https://github.com/mmistakes/jekyll-theme-basically-basic
+lang: en-US
+title: SchneidersCode
+email: mason@schneierscode.com
+description: "asfdasdf123"
+baseurl: ""  # the subpath of your site, e.g. /blog
+url: "https://schneierscode.com"  # the base hostname & protocol for your site, e.g. http://example.com
+author:
+  name: Mason Schneider
+  twitter: SchneidersCode
+  picture: https://api.adorable.io/avatars/285/johndoe.png
+twitter_username: SchneidersCode
+github_username: MasonSchneider
+logo: /assets/icons/basically-basic-logo-light.svg #100 x 100
+search: true
+search_full_content: true
+search_provider:
+
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-basically-basic
+plugins: # previously gems
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
