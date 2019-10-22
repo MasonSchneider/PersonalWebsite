@@ -13,7 +13,7 @@ author:
   picture: /assets/images/self.png
 twitter_username: SchneidersCode
 github_username: MasonSchneider
-logo: #/assets/icons/basically-basic-logo-light.svg #100 x 100
+logo: favicon.ico #100 x 100
 search: true
 search_full_content: true
 search_provider:
