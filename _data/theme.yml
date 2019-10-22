@@ -32,6 +32,4 @@ google_fonts:
 navigation_pages:
   - about.md
   - posts.md
-  - resume.md
-  - tags.md
   - categories.md

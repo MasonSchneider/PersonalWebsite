@@ -4,16 +4,16 @@
 lang: en-US
 title: SchneidersCode
 email: mason@schneierscode.com
-description: "asfdasdf123"
+description: ""
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://schneierscode.com"  # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Mason Schneider
   twitter: SchneidersCode
-  picture: https://api.adorable.io/avatars/285/johndoe.png
+  picture: /assets/images/self.png
 twitter_username: SchneidersCode
 github_username: MasonSchneider
-logo: /assets/icons/basically-basic-logo-light.svg #100 x 100
+logo: #/assets/icons/basically-basic-logo-light.svg #100 x 100
 search: true
 search_full_content: true
 search_provider:
