@@ -14,8 +14,8 @@ author:
 twitter_username: SchneidersCode
 github_username: MasonSchneider
 logo: favicon.ico #100 x 100
-search: true
-search_full_content: true
+search: false
+search_full_content: false
 search_provider:
 
 # Liquid
