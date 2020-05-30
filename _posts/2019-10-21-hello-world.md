@@ -1,7 +1,6 @@
 ---
 title: "Hello World!"
 sub_title: "For the third time..."
-excerpt:
 categories:
   - Personal
 last_modified_at: 2019-10-21

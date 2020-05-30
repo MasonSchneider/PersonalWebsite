@@ -18,6 +18,8 @@ search: false
 search_full_content: false
 search_provider:
 
+google_analytics: UA-100862590-2
+
 # Liquid
 liquid:
   error_mode: strict
